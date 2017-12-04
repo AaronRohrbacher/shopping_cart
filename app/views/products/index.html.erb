@@ -6,3 +6,7 @@
     <%= f.submit "Add to cart" %>
   <% end %></p>
 <% end %>
+
+  <% @books.each do |book| %>
+    <p><%= book['title'] %></p>
+    <% end %>
